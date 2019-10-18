@@ -31,7 +31,7 @@
             </WrapPanel>
             <WrapPanel>
                 <TextBlock Text="Municipio : "/>
-                <ComboBox FontSize="20" Name="cbMunicipio" Width="250" Margin="10">
+                <ComboBox FontSize="20" x:Name="cbMunicipio" Width="250" Margin="10">
                     <ComboBoxItem Content="Selecciona el Municipo" Selector.IsSelected="True" />
                     <ComboBoxItem Content="Manzanillo" />
                     <ComboBoxItem Content="Armeria" />
