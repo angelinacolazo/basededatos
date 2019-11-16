@@ -1,0 +1,39 @@
+﻿<Window x:Class="Vers2.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vers2"
+        mc:Ignorable="d"
+        Title="Window2" Height="440.722" Width="748.969">
+    <Grid Margin="0,0,-64,-21" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="-0.219"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="328,40,0,0" VerticalAlignment="Top" Width="82" Height="27"/>
+        <Label Content="Correo:" HorizontalAlignment="Left" Margin="328,90,0,0" VerticalAlignment="Top" Width="82" Height="28"/>
+        <Label Content="Telefono:" HorizontalAlignment="Left" Margin="328,145,0,0" VerticalAlignment="Top" Width="82" RenderTransformOrigin="0.428,1.87" Height="28"/>
+        <TextBox HorizontalAlignment="Left" x:Name="txtNombre" Height="24" Margin="422,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <TextBox HorizontalAlignment="Left" x:Name="txtCorreo" Height="25" Margin="426,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <TextBox HorizontalAlignment="Left" x:Name="txtTelefono" Height="25" Margin="426,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <Button Content="Editar" HorizontalAlignment="Left" Click="btnGuardar_Click" x:Name="btnGuardar" VerticalAlignment="Top" Width="75" Margin="389,193,0,0" Height="21"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="29,39,0,0" VerticalAlignment="Top" Width="82" Height="27" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-2.865"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox HorizontalAlignment="Left" x:Name="txtNombr" Height="24" Margin="127,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <Button Content="Buscar" HorizontalAlignment="Left" Click="btnEditar_Click" x:Name="btnGuarda" VerticalAlignment="Top" Width="75" Margin="127,93,0,0" Height="21"/>
+
+    </Grid>
+</Window>
