@@ -16,7 +16,7 @@
         </ListView>
         <Button x:Name="Agregar" Content="Agregar" HorizontalAlignment="Left" Margin="83,377,0,0" VerticalAlignment="Top" Width="75" Click="Agregar_Click"/>
         <Button x:Name="Eliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="480,377,0,0" VerticalAlignment="Top" Width="75" Click="Eliminar_Click"/>
-        <Button Content="Editar" Name="Editar" HorizontalAlignment="Left" Margin="305,377,0,0" VerticalAlignment="Top" Width="75" Click="Editar_Click"/>
+        <Button Content="Editar" Name="Editar" HorizontalAlignment="Left" Margin="291,377,0,0" VerticalAlignment="Top" Width="75" Click="Editar_Click"/>
         <Button Content="Salir" HorizontalAlignment="Left" Margin="669,377,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click"/>
 
     </Grid>
